@@ -52,7 +52,7 @@ export default function TrustedClients({
     "flex h-9 w-9 items-center justify-center rounded-full bg-white text-[#0b0f18] shadow-[0_2px_8px_rgba(60,70,120,0.12)] transition hover:bg-[#6366f1] hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500";
 
   return (
-    <Container className="bg-white dark:bg-gray-900">
+    <Container className="bg-white dark:bg-gray-900 mb-[112px]">
       <div>
         <div
           className={
