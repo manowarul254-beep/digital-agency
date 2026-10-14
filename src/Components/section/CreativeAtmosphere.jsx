@@ -35,7 +35,7 @@ export default function CreativeAtmosphere({
   alt = "Our team working together in the office",
 }) {
   return (
-    <Container className="mb-24 ">
+    <Container className="mb-24 mt-[112px]">
       <div className="flex items-start gap-8 mb-10">
         <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">
           {title}

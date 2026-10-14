@@ -69,7 +69,7 @@ function LinkList({ items }) {
 }
 
 export default function Footer({
-  brand = "Silicon",
+  brand = "",
   logo = <img src={logoImg} alt="" className=" dark:invert" />,
   description = "Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget elementum dolor ullamcorper sodales ultrices eros.",
   email = "example@gmail.com",
