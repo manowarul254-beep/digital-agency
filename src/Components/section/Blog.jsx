@@ -1,7 +1,7 @@
 import { useState } from "react";
 import blog1 from "../../assets/Blog.png";
-import blog2 from "../../assets/Blog1.png";
-import blog3 from "../../assets/Blog2.png";
+import blog2 from "../../assets/blog1.png";
+import blog3 from "../../assets/blog2.png";
 import avatar1 from "../../assets/avater.png";
 import avatar2 from "../../assets/avater1.png";
 import avatar3 from "../../assets/avater2.png";
