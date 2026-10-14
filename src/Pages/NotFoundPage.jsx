@@ -31,7 +31,6 @@ export default function NotFoundPage() {
             </Link>
           </div>
 
-          {/* ডান দিক: রোবট */}
           <div className="flex justify-center lg:justify-end">
             <img
               src={robot}
