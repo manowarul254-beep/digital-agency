@@ -26,7 +26,7 @@ export default function Breadcrumb() {
               <li key={to} className="flex items-center gap-2">
                 <span className="text-slate-300">/</span>
                 {isLast ? (
-                  <span className="font-medium capitalize text-slate-900">{label}</span>
+                  <span className="font-medium capitalize text-slate-900 dark:text-gray-500">{label}</span>
                 ) : (
                   <Link to={to} className="capitalize hover:text-indigo-500 transition">
                     {label}

@@ -103,7 +103,7 @@ export default function ServicesList({ services = defaultServices }) {
             <h3 className="flex items-center gap-3 text-2xl font-bold text-slate-900">
               <Link
                 to={`/services/${s.slug}`}
-                className="flex items-center gap-3 hover:text-indigo-500 transition"
+                className="flex items-center gap-3 hover:text-indigo-500 transition dark:text-gray-200"
               >
                 {s.title}
                 <ArrowCircle />

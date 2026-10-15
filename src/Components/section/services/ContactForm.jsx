@@ -81,7 +81,7 @@ const inputClass =
   "w-full rounded-md border border-slate-200 bg-white px-4 text-slate-800 placeholder:text-slate-300 focus:border-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-100";
 
 const Label = ({ htmlFor, children }) => (
-  <label htmlFor={htmlFor} className="mb-2 block text-[15px] font-medium text-slate-900">
+  <label htmlFor={htmlFor} className="mb-2 block text-[15px] font-medium text-slate-900 dark:text-gray-400">
     {children}
   </label>
 );
@@ -120,20 +120,20 @@ export default function ContactForm({
       <div className="bg-[#f3f6ff] dark:bg-gray-900  mx-auto grid max-w-7xl items-start gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-24 lg:px-8">
       
         <div className="lg:pt-12">
-          <h2 className="text-4xl font-extrabold text-slate-900">{title}</h2>
+          <h2 className="text-4xl font-extrabold text-slate-900 dark:text-gray-200">{title}</h2>
           <p className="mt-8 max-w-md text-base leading-[26px] text-slate-500">{description}</p>
 
-          <h3 className="mt-20 text-3xl font-extrabold text-slate-900">{contactTitle}</h3>
+          <h3 className="mt-20 text-3xl font-extrabold text-slate-900 dark:text-gray-200">{contactTitle}</h3>
           <ul className="mt-6 space-y-4 font-medium text-slate-800">
-            <li className="flex items-center gap-3">
+            <li className="flex items-center gap-3 dark:text-gray-200">
               <PhoneIcon />
               {phone}
             </li>
-            <li className="flex items-center gap-3">
+            <li className="flex items-center gap-3 dark:text-gray-200">
               <MailIcon />
               {email}
             </li>
-            <li className="flex items-center gap-3">
+            <li className="flex items-center gap-3 dark:text-gray-200">
               <PinIcon />
               {address}
             </li>
@@ -168,7 +168,7 @@ export default function ContactForm({
                 onChange={change}
                 required
                 className={`${inputClass} h-[52px] appearance-none pr-12 ${
-                  form.service ? "" : "text-slate-300"
+                  form.service ? "" : "text-slate-300 "
                 }`}
               >
                 <option value="" disabled>

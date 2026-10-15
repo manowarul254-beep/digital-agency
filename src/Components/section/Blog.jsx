@@ -122,7 +122,7 @@ export default function Blog({
     <section className="bg-[#f3f6ff] dark:bg-gray-900 ">
     <Container className="py-24">
       <div>
-        <h2 className="text-center text-3xl md:text-4xl font-extrabold text-slate-900 mb-12">
+        <h2 className="text-center text-3xl md:text-4xl font-extrabold text-slate-900 mb-12 dark:text-gray-200">
           {title}
         </h2>
 

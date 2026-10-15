@@ -70,7 +70,7 @@ export default function Testimonials({
 
   return (
     <Container className="">
-      <h2 className="text-center text-3xl md:text-4xl font-extrabold text-slate-900 mb-14">
+      <h2 className="text-center text-3xl md:text-4xl font-extrabold text-slate-900 mb-14 dark:text-gray-200">
         {title}
       </h2>
 

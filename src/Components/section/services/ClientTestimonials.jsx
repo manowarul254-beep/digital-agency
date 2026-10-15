@@ -49,7 +49,7 @@ export default function ClientTestimonials({
 
   return (
     <Container className="dark:bg-gray-900 ">
-      <h2 className="mb-12 text-3xl font-extrabold text-slate-900 md:text-4xl">
+      <h2 className="mb-12 text-3xl font-extrabold text-slate-900 md:text-4xl dark:text-gray-200">
         {title}
       </h2>
 

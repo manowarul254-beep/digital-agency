@@ -33,7 +33,7 @@ export default function AboutIntro({
     
       <a href={reviewHref} className="mt-12 flex items-center gap-4 no-underline">
         <div className="min-h-[56px] min-w-[88px]">
-          {clutchLogo && <img src={clutchLogo} alt="Reviewed on Clutch" className="h-14 w-auto" />}
+          {clutchLogo && <img src={clutchLogo} alt="Reviewed on Clutch" className="h-14 w-auto dark:invert" />}
         </div>
         <div>
           <div className="flex gap-1" aria-label="5 out of 5 stars">

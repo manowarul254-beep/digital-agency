@@ -81,7 +81,7 @@ export default function WhyChooseUs({
     <section className="mb-[112px]">
     <Container>
       <div className="text-center">
-        <h2 className="text-3xl font-extrabold text-slate-900 md:text-4xl">{title}</h2>
+        <h2 className="text-3xl font-extrabold text-slate-900 md:text-4xl dark:text-gray-200">{title}</h2>
         <p className="mx-auto mt-6 max-w-2xl text-base text-slate-400">{subtitle}</p>
       </div>
 
@@ -96,7 +96,7 @@ export default function WhyChooseUs({
             <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white text-[#8f94c9] shadow-[0_6px_20px_rgba(80,90,180,0.15)]">
               {item.icon}
             </div>
-            <h3 className="mt-8 max-w-[240px] text-lg font-bold leading-7 text-slate-900">
+            <h3 className="mt-8 max-w-[240px] text-lg font-bold leading-7 text-slate-900 dark:text-gray-400">
               {item.title}
             </h3>
           </li>

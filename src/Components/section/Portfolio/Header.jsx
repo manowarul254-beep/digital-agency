@@ -62,7 +62,7 @@ export default function Header({
         </span>
       </nav>
       <div className="mt-8 flex flex-col gap-6 border-b border-gray-200 lg:flex-row lg:items-end lg:justify-between lg:gap-8">
-        <h1 className="pb-3 text-5xl font-extrabold tracking-tight text-gray-900">
+        <h1 className="pb-3 text-5xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100">
           {title}
         </h1>
 
@@ -77,7 +77,7 @@ export default function Header({
                     role="tab"
                     aria-selected={isActive}
                     onClick={() => handleClick(tab)}
-                    className={`border-b-2 px-1 pb-3 text-sm font-medium transition focus:outline-none focus-visible:text-[#5b5fe8] ${
+                    className={`border-b-2 px-1 pb-3 dark:text-gray-400 cursor-pointer text-sm font-medium transition focus:outline-none focus-visible:text-[#5b5fe8] ${
                       isActive
                         ? "border-gray-400 text-[#5b5fe8]"
                         : "border-transparent text-gray-800 hover:text-[#5b5fe8]"

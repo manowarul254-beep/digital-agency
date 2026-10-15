@@ -37,7 +37,7 @@ export default function CreativeAtmosphere({
   return (
     <Container className="mb-24 mt-[112px]">
       <div className="flex items-start gap-8 mb-10">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-gray-200">
           {title}
         </h2>
         <Arrows className="hidden sm:block mt-3" />
