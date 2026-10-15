@@ -114,8 +114,6 @@ export default function ServiceNavbar() {
             ))}
           </ul>
         </div>
-
-        {/* Right: theme toggle + buttons */}
         <div className="flex items-center gap-6">
           <div className="hidden items-center gap-3 text-slate-700 dark:text-slate-200 sm:flex">
             <span>Light</span>
@@ -123,21 +121,21 @@ export default function ServiceNavbar() {
             <span>Dark</span>
           </div>
 
-          <a
-            href="#"
+          <Link
+            to="/signin"
             className="hidden items-center gap-2 rounded-md border border-indigo-300 px-5 py-2.5 text-sm font-medium text-indigo-500 transition hover:bg-indigo-50 sm:flex"
           >
             <SignInIcon />
             Sign in
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to="/signup"
             className="flex items-center gap-2 rounded-md bg-indigo-500 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-indigo-600"
           >
             <UserIcon />
             Sign up
-          </a>
+          </Link>
         </div>
       </Container>
     </header>

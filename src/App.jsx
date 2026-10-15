@@ -14,6 +14,8 @@ import Contact from "./Pages/ContactPage.jsx";
 import { useEffect } from "react";
 import { Routes, Route, Outlet, useLocation } from "react-router-dom";
 import NotFound from "./Pages/NotFoundPage.jsx";
+import SignInPage from "./Pages/SignInPage.jsx";
+import SignUpPage from "./Pages/SignUpPage.jsx";
 
 
 function MainLayout() {
@@ -55,9 +57,9 @@ function App() {
           <Route path="/blog/:id" element={<SinglePostPage />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
-
-        {/* লেআউটের বাইরে: নেভবার, ফুটার নেই */}
         <Route path="*" element={<NotFound />} />
+         <Route path="/signin" element={<SignInPage/>} />
+         <Route path="/signup" element={<SignUpPage />} />
       </Routes>
     </div>
   );
