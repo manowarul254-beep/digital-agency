@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className="relative overflow-hidden bg-[#f3f6ff] dark:bg-gray-900">
       <Container>
-        <div className="flex py-[128px] ">
+        <div className="flex flex-col py-12 sm:py-16 lg:flex-row lg:py-[128px]">
           <div className="relative z-10 max-w-2xl">
             <div className="mb-6 flex items-center gap-3">
               <span className="flex px-7 py-7 items-center justify-center rounded-full bg-white text-sm text-gray-800 shadow-md">
@@ -41,9 +41,9 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="relative container mx-auto ">
+          <div className="relative mt-10 w-full min-w-0 lg:mt-0 lg:w-1/2">
             <img src={heroImage} alt="Hero"/>
-            <div className="absolute top-[150px] left-65 w-[636px] h-[490px]">
+            <div className="absolute top-[15%] left-[10%] w-[90%] sm:left-[15%] sm:w-[100%] lg:top-[150px] lg:left-65 lg:w-[636px] lg:h-[490px]">
               <img src={heroImage1} alt="" />
             </div>
           </div>
