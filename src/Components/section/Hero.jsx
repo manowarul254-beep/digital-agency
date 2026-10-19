@@ -31,10 +31,12 @@ const Hero = () => {
               Reality
             </h1>
 
-            <div className="mt-14 flex items-start gap-8 w-[636px] ">
-              <Button>Work with us</Button>
+            <div className="mt-8 flex w-full flex-col items-start gap-5 sm:mt-10 sm:flex-row sm:gap-6 lg:mt-14">
+              <div className="shrink-0">
+                <Button>Work with us</Button>
+              </div>
 
-              <p className="max-w-md pt-1 text-sm leading-6 text-gray-500 dark:text-gray-400">
+              <p className="w-full min-w-0 max-w-md pt-1 text-sm leading-6 text-gray-500 dark:text-gray-400">
                 Silicon is a leading full-service digital agency based in New
                 York. We make mobile apps, websites & brands, that people
                 appreciate all around the world.
@@ -42,7 +44,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative mt-10 w-full min-w-0 lg:mt-0 lg:w-1/2">
-            <img src={heroImage} alt="Hero"/>
+            <img src={heroImage} alt="Hero" />
             <div className="absolute top-[15%] left-[10%] w-[90%] sm:left-[15%] sm:w-[100%] lg:top-[150px] lg:left-65 lg:w-[636px] lg:h-[490px]">
               <img src={heroImage1} alt="" />
             </div>

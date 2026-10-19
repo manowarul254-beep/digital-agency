@@ -70,7 +70,7 @@ const defaultItems = [
 
 function FeatureItem({ icon, title, text }) {
   return (
-    <div className="border-t border-[#e4e2f3] px-6 py-8 text-center first:border-t-0 md:border-l md:border-t-0 md:py-0 md:first:border-l-0 mt-[109px] mb-[131px]">
+   <div className="border-t border-[#e4e2f3] px-6 py-6 text-center first:border-t-0 md:border-l md:border-t-0 md:py-0 md:first:border-l-0 mt-4 mb-4 md:mt-[109px] md:mb-[131px]">
       {icon}
       <h3 className="mb-5 text-[24px] font-extrabold leading-9 text-[#0c0c1d] dark:text-gray-200">
         {title}
