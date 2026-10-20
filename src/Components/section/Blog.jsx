@@ -88,7 +88,7 @@ function PostCard({ post, featured = false }) {
           <span className="text-[13px] text-slate-400">{post.time}</span>
         </div>
 
-        <h3 className="mt-4 text-xl font-bold leading-7 text-slate-700">
+        <h3 className="mt-4 text-xl font-bold leading-7 text-slate-700 dark:text-gray-300">
           <a href={post.href}>{post.title}</a>
         </h3>
 
@@ -100,7 +100,7 @@ function PostCard({ post, featured = false }) {
               className="w-12 h-12 rounded-full object-cover bg-indigo-100"
             />
             <div>
-              <div className="font-semibold text-slate-900 leading-5">{post.author.name}</div>
+              <div className="font-semibold text-slate-900 leading-5 dark:text-gray-200">{post.author.name}</div>
               <div className="text-sm text-slate-400">{post.author.role}</div>
             </div>
           </div>
