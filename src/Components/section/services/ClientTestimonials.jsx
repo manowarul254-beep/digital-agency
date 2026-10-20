@@ -89,11 +89,11 @@ export default function ClientTestimonials({
           </div>
 
           <div className="rounded-lg bg-white dark:bg-gray-900  px-12 pb-10 pt-14 shadow-[0_6px_24px_rgba(30,30,80,0.08)]">
-            <p className="text-[17px] leading-8 text-slate-600">{t.text}</p>
+            <p className="text-[17px] leading-8 text-slate-600 dark:text-gray-400">{t.text}</p>
 
             <div className="mt-8 flex items-center gap-6">
               <div>
-                <div className="text-lg font-bold text-slate-900">{t.name}</div>
+                <div className="text-lg font-bold text-slate-900 dark:text-gray-200">{t.name}</div>
                 <div className="text-sm text-slate-400">{t.role}</div>
               </div>
               {t.logo && (

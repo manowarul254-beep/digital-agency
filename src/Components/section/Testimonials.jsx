@@ -120,18 +120,21 @@ export default function Testimonials({
             </button>
           </nav>
         </div>
-        <div>
-          <img
-            src={testimonial}
-            alt={t.name}
-            className=""
-          />
-          <div className="flex items-center gap-6 mt-8">
+        <div className="w-full min-w-0">
+          <div className="w-full overflow-hidden rounded-xl">
+            <img
+              src={testimonial}
+              alt={t.name}
+              className="block h-auto w-full max-w-full object-contain"
+            />
+          </div>
+
+          <div className="flex flex-wrap items-center gap-4 mt-6 md:mt-8">
             <div className="text-slate-300 border-r border-slate-200 pr-6 py-2">
               {logo}
             </div>
             <div>
-              <div className="text-xl font-bold text-slate-900">{t.name}</div>
+              <div className="text-xl font-bold text-slate-900 dark:text-gray-200">{t.name}</div>
               <div className="text-sm text-slate-400">{t.role}</div>
             </div>
           </div>
