@@ -76,7 +76,7 @@ function ProjectCard({ project, narrow }) {
           />
         </div>
 
-        <h3 className="mt-6 text-xl font-bold leading-snug text-[#3b3a52] transition-colors group-hover:text-[#5b5fe8] group-focus-visible:text-[#5b5fe8] lg:text-2xl">
+        <h3 className="mt-6 text-xl font-bold leading-snug text-[#3b3a52] transition-colors group-hover:text-[#5b5fe8] group-focus-visible:text-[#5b5fe8] lg:text-2xl dark:text-gray-200">
           {project.title}
         </h3>
 

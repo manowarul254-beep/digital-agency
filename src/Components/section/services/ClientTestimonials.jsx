@@ -84,7 +84,7 @@ export default function ClientTestimonials({
         </div>
 
         <div className="relative pt-5">
-          <div className="absolute dark:bg-gray-900  left-12 top-0 z-10 flex h-[52px] w-[52px] items-center justify-center rounded-xl bg-indigo-500 pt-3 text-5xl font-extrabold leading-none text-white shadow-lg shadow-indigo-300">
+          <div className="absolute left-12 top-0 z-10 flex h-[52px] w-[52px] items-center justify-center rounded-xl bg-indigo-500 pt-3 text-5xl font-extrabold leading-none text-white shadow-lg shadow-indigo-300">
             “
           </div>
 

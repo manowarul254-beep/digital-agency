@@ -27,6 +27,13 @@ const CSS = `
   .cta-eyebrow { font-size:18px; }
 }
 @media (prefers-reduced-motion:reduce) { .cta-btn { transition:none; } }
+.dark .cta {
+  --cta-bg: #18181b;
+  --cta-circle: #27272a;
+  --cta-ink: #f4f4f5;
+  --cta-muted: #d4d4d8;
+  --cta-accent: #818cf8;
+}
 `;
 
 function Placeholder() {
