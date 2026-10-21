@@ -38,7 +38,6 @@ export default function SinglePostHeader({ post }) {
     <header>
       <Container>
         <div className="flex flex-col gap-8 pb-8 pt-4 lg:flex-row lg:items-end lg:justify-between">
-          {/* বাঁ দিক: টাইটেল ও মেটা */}
           <div className="max-w-3xl">
             <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white md:text-5xl md:leading-[1.2]">
               {title}
@@ -60,8 +59,6 @@ export default function SinglePostHeader({ post }) {
               </div>
             </div>
           </div>
-
-          {/* ডান দিক: লেখক */}
           <div className="flex items-center gap-4">
             <img
               src={avatar}
@@ -75,8 +72,6 @@ export default function SinglePostHeader({ post }) {
           </div>
         </div>
       </Container>
-
-      {/* পুরো প্রস্থের হিরো ছবি */}
       <img
         src={image}
         alt={title}

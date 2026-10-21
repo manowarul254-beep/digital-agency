@@ -63,8 +63,6 @@ export default function ClientReviews() {
               <a href="#" aria-label="Instagram" className={socialBtn}><FaInstagram /></a>
             </div>
           </div>
-
-          {/* নিচের ডট */}
           <div className="mt-12 flex items-center justify-center gap-3">
             <span className="h-1.5 w-6 rounded-full bg-indigo-500" />
             <span className="h-1.5 w-1.5 rounded-full bg-slate-300" />

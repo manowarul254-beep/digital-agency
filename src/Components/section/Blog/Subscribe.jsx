@@ -35,7 +35,6 @@ export default function Subscribe() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // এখানে API কল বসান: { email, newsletters: selected }
     console.log({ email, newsletters: selected });
     setEmail("");
   };
@@ -82,8 +81,6 @@ export default function Subscribe() {
               })}
             </div>
           </div>
-
-          {/* Email + button */}
           <form onSubmit={handleSubmit} className="mt-14 flex flex-col gap-4 sm:flex-row">
             <div className="relative flex-1">
               <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">

@@ -34,13 +34,12 @@ export default function PostSidebar({ readTime = "5 min read", likes = 8 }) {
 
   const handleSubscribe = (e) => {
     e.preventDefault();
-    console.log({ email }); // এখানে API কল বসান
+    console.log({ email });
     setEmail("");
   };
 
   return (
     <aside className="flex h-full flex-col justify-between gap-16">
-      {/* উপরের অংশ: পড়ার সময়, শেয়ার, লাইক */}
       <div className="space-y-8 lg:sticky lg:top-24">
         <p className="text-gray-500 dark:text-gray-400">{readTime}</p>
 
@@ -63,8 +62,6 @@ export default function PostSidebar({ readTime = "5 min read", likes = 8 }) {
           </span>
         </button>
       </div>
-
-      {/* নিচের অংশ: নিউজলেটার ও শেয়ার */}
       <div className="space-y-10">
         <form onSubmit={handleSubscribe} className="space-y-4">
           <h4 className="text-lg font-bold leading-7 text-gray-900 dark:text-white">

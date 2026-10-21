@@ -88,7 +88,6 @@ export default function BlogHeader({
         </h1>
 
         <div className="flex flex-wrap items-center gap-4">
-          {/* List / Grid toggle */}
           <div className="flex items-center gap-2">
             <button type="button" aria-label="List view" onClick={() => changeView("list")} className={toggleBtn(view === "list")}>
               <ListIcon />
@@ -97,8 +96,6 @@ export default function BlogHeader({
               <GridIcon />
             </button>
           </div>
-
-          {/* Category select */}
           <div className="relative w-52">
             <select
               value={category}
@@ -114,8 +111,6 @@ export default function BlogHeader({
               <ChevronIcon />
             </span>
           </div>
-
-          {/* Search */}
           <div className="relative w-64">
             <input
               type="text"

@@ -59,7 +59,6 @@ export default function PostContent({
         </p>
       </section>
 
-      {/* ভিডিও থাম্বনেইল */}
       <div className="relative h-64 overflow-hidden rounded-xl bg-gray-200 dark:bg-gray-800 md:h-[500px]">
         {videoImage && <img src={videoImage} alt="" className="absolute inset-0 h-full w-full object-cover" />}
         <button
@@ -77,7 +76,6 @@ export default function PostContent({
         Tempor donec aliquam est, a. Sit arcu tellus pharetra, bibendum hendrerit arcu, sed. Scelerisque dui enim libero sit ac sed lacus lectus. Quam in iaculis scelerisque feugiat nibh mi. Maecenas posuere lobortis praesent iaculis sagittis. Egestas vel at praesent ipsum pretium faucibus adipiscing gravida feugiat.
       </p>
 
-      {/* কোট */}
       <blockquote className="border-l-4 border-indigo-500 pl-8">
         <p className="text-xl font-semibold leading-8 text-gray-900 dark:text-white">
           Sollicitudin eget massa, elementum, purus nec fermentum vitae, elementum. Tincidunt vulputate lorem cursus id. Dictum tincidunt mi ornare tristique. Id sit elit pulvinar eu. Tempus vel, mauris sed proin aliquet vulputate cras est. Ut ornare eget a viverra.
@@ -117,7 +115,6 @@ export default function PostContent({
         </p>
       </section>
 
-      {/* ট্যাগ */}
       <div className="flex flex-wrap items-center gap-3 border-t border-gray-200 pt-6 dark:border-gray-700">
         <span className="font-bold text-gray-900 dark:text-white">Related Tags:</span>
         {tags.map((t) => (
